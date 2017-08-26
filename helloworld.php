@@ -4,6 +4,12 @@
 	<title>BARNUEVO</title>
 </head>
 <body>
-	<?="helloworld";?>
+	<?php
+	$num = range(1,10);
+	for($i = 0; $i < 10; $i++){
+		echo $num[$i] . " ";
+	}
+
+	?>
 </body>
 </html>
